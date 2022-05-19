@@ -1,0 +1,37 @@
+.list__wrapper {
+	@apply container sm:flex sm:flex-wrap sm:justify-center sm:gap-6;
+}
+
+.card__onecar {
+	@apply mx-auto mb-6 w-56 overflow-hidden rounded-lg border border-gray-100 p-6 shadow-md lg:w-80;
+}
+
+.card__img {
+	@apply mb-10 bg-cover bg-center;
+}
+
+.card__title {
+	@apply text-base;
+}
+
+.card__price {
+	@apply mb-2 text-base font-semibold;
+}
+
+.card__desc {
+	@apply mb-2 text-sm text-gray-400;
+}
+
+.card__specs {
+	@apply mb-10;
+}
+
+.specs__text {
+	@apply mb-2 flex items-center text-sm;
+}
+
+.card__btn {
+	@apply w-full rounded-sm bg-[#5CB85F] px-3 py-2 font-bold text-white;
+}
+
+/* KENAPA GABISA NESTINGGGGGGGGGGGGG */

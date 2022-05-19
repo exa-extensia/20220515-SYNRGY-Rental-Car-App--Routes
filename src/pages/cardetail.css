@@ -1,0 +1,39 @@
+.detail__wrapper {
+	@apply container flex flex-col items-start justify-center gap-6 lg:flex-row;
+}
+
+.title--bold {
+	@apply mb-4 font-bold;
+}
+
+.title--reg {
+	@apply mb-2;
+}
+
+.list--light {
+	@apply mb-4 list-disc gap-y-1 pl-4 font-light text-[#8A8A8A];
+}
+
+.wrapper__left {
+	@apply mx-auto mb-6 w-11/12 overflow-hidden rounded-lg border border-gray-100 p-6 shadow-md lg:m-0 lg:basis-6/12 xl:basis-7/12;
+}
+
+.left__top {
+	@apply mb-6;
+}
+
+.wrapper__right {
+	@apply mx-auto w-11/12 overflow-hidden rounded-lg border border-gray-100 p-6 shadow-md lg:m-0 lg:basis-5/12 xl:basis-4/12;
+}
+
+.detail__title {
+	@apply mb-2 text-base font-semibold;
+}
+
+.detail__specs {
+	@apply mb-10 font-light text-[#8A8A8A] sm:flex sm:gap-4;
+}
+
+.detail__price {
+	@apply mb-6 flex justify-between font-bold;
+}

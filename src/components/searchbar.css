@@ -1,0 +1,19 @@
+.searchbar__wrapper {
+	@apply z-10 mx-auto mb-10 w-11/12 rounded-lg border border-gray-100 bg-white p-4 shadow-md lg:flex lg:w-9/12 lg:items-end lg:p-4;
+}
+
+.search__btn {
+	@apply ml-auto mr-0 block rounded-sm bg-[#5CB85F] px-3 py-2 text-xs font-bold text-white lg:text-sm;
+}
+
+.form__wrapper {
+	@apply mb-8 flex flex-col text-xs sm:flex-row sm:justify-between lg:mb-0  lg:w-10/12 lg:items-end;
+}
+
+.onelabelinput__wrapper {
+	@apply mb-3 flex flex-col sm:mb-0 lg:w-full lg:px-2;
+}
+
+.input--custom {
+	@apply mt-1 h-8 rounded-sm border border-[#D0D0D0] p-2 text-[#8A8A8A];
+}
