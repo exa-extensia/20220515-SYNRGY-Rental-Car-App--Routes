@@ -5,6 +5,9 @@
 @import "./components/navbar.css";
 @import "./components/jumbotron.css";
 @import "./components/searchbar.css";
+@import "./components/footer.css";
+
+@import "./pages/homepage.css";
 @import "./pages/carlist.css";
 @import "./pages/cardetail.css";
 
