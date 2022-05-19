@@ -2,6 +2,7 @@
 @import "./assets/global.css";
 
 @import "tailwindcss/components";
+@import "./components/jumbotron.css";
 @import "./components/searchbar.css";
 @import "./pages/carlist.css";
 @import "./pages/cardetail.css";

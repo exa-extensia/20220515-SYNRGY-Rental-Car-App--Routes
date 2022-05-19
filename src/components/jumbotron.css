@@ -1,0 +1,27 @@
+.jumbo__bg {
+	@apply relative mb-10 bg-[#F1F3FF] sm:h-[300px] lg:mb-0 xl:h-[400px];
+}
+
+.jumbo__wrapper {
+	@apply container h-full sm:flex sm:justify-between sm:gap-4 lg:gap-12;
+}
+
+.jumbo__left {
+	@apply mb-10 flex max-w-lg flex-col justify-center gap-4 pt-10 sm:mb-0 sm:pt-0;
+}
+
+.jumbo__title {
+	@apply mb-4 text-3xl font-bold lg:text-4xl xl:text-5xl;
+}
+
+.jumbo__desc {
+	@apply text-sm font-light lg:text-base xl:text-xl;
+}
+
+.jumbo__right {
+	@apply mt-auto mb-0 block;
+}
+
+.jumbo__img {
+	@apply w-full bg-cover bg-center bg-no-repeat xl:h-[300px];
+}

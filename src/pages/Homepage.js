@@ -1,3 +1,11 @@
+import Jumbotron from "../components/Jumbotron";
+import SearchBar from "../components/SearchBar";
+
 export default function Homepage() {
-	return <></>;
+	return (
+		<>
+			<Jumbotron />
+			<SearchBar />
+		</>
+	);
 }
