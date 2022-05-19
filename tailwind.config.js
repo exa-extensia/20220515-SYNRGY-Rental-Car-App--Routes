@@ -15,6 +15,9 @@ module.exports = {
 			fontFamily: {
 				helv: "Helvetica, sans-serif",
 			},
+			backgroundSize: {
+				"size-200": "200% 200%",
+			},
 		},
 	},
 	plugins: [],

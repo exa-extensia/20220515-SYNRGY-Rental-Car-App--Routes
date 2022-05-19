@@ -6,7 +6,7 @@
 	@apply container sm:flex sm:flex-wrap sm:justify-center sm:gap-6;
 }
 
-.card__onecar {
+.card__onecard {
 	@apply mx-auto mb-6 w-56 overflow-hidden rounded-lg border border-gray-100 p-6 shadow-md lg:w-80;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .card__btn {
-	@apply w-full rounded-sm bg-[#5CB85F] px-3 py-2 font-bold text-white;
+	@apply w-full rounded-sm bg-gradient-to-br from-[#5CB85F] via-[#95D097]  to-[#39693d] bg-size-200 px-3 py-2 font-bold text-white transition-all duration-500 hover:bg-right-bottom;
 }
 
 /* KENAPA GABISA NESTINGGGGGGGGGGGGG */

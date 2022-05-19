@@ -8,7 +8,7 @@ nav {
 }
 
 .nav__left {
-	@apply flex h-10 w-32 items-center justify-center rounded-tr-2xl bg-[#0D28A6] px-4 text-sm font-bold text-white;
+	@apply flex h-10 w-32 items-center justify-center rounded-tr-2xl  bg-gradient-to-br from-[#0D28A6] via-[#4262F0] to-[#061247] bg-size-200 px-4 text-sm  font-bold text-white transition-all duration-500 hover:bg-right-bottom;
 }
 
 .nav__right {
@@ -20,5 +20,5 @@ nav {
 }
 
 .reg__btn {
-	@apply ml-auto mr-0 block rounded-sm bg-[#5CB85F] px-3 py-2 text-xs font-bold text-white xl:text-sm;
+	@apply ml-auto mr-0 block  rounded-sm bg-gradient-to-br from-[#5CB85F] via-[#95D097]  to-[#39693d] bg-size-200 px-3 py-2 text-xs font-bold text-white transition-all duration-500 hover:bg-right-bottom xl:text-sm;
 }

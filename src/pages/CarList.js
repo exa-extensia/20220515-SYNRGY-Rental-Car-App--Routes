@@ -41,7 +41,7 @@ export default function CarList() {
 					!error &&
 					cars.map((oneCar) => (
 						<Link to={`/detail/${oneCar.id}`}>
-							<div key={oneCar.id} className="card__onecar">
+							<div key={oneCar.id} className="card__onecard">
 								<img
 									src={oneCar.image}
 									alt={oneCar.name}
