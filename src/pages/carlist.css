@@ -1,3 +1,7 @@
+.jumbo__empty {
+	@apply relative h-[100px] bg-[#F1F3FF];
+}
+
 .list__wrapper {
 	@apply container sm:flex sm:flex-wrap sm:justify-center sm:gap-6;
 }

@@ -15,6 +15,10 @@ nav {
 	@apply list-none text-right sm:flex sm:items-center sm:gap-6;
 }
 
+.list__items {
+	@apply hover:cursor-pointer hover:border-b-2 hover:border-[#0D28A6];
+}
+
 .reg__btn {
 	@apply ml-auto mr-0 block rounded-sm bg-[#5CB85F] px-3 py-2 text-xs font-bold text-white xl:text-sm;
 }

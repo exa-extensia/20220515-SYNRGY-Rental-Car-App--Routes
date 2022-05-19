@@ -12,7 +12,7 @@ export default function Navbar() {
 					<li className="list__items">Why Us</li>
 					<li className="list__items">Testimonial</li>
 					<li className="list__items">FAQ</li>
-					<li className="list__items">
+					<li>
 						<button className="reg__btn">Register</button>
 					</li>
 				</div>

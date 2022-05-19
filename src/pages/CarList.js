@@ -31,9 +31,10 @@ export default function CarList() {
 
 	return (
 		<>
+			<div className="jumbo__empty"></div>
+
 			<SearchBar />
 
-			<h1>Car List</h1>
 			<div className="list__wrapper">
 				{loading && <div>loading...</div>}
 				{!loading &&

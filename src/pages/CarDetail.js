@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { BsPeople, BsGear, BsCalendarDate } from "react-icons/bs";
+import SearchBar from "../components/SearchBar";
 
 export default function CarDetail() {
 	const [oneCarDetail, setOneCarDetail] = useState([]);
@@ -26,7 +27,10 @@ export default function CarDetail() {
 
 	return (
 		<>
-			<h1>Car Detail - {oneCarDetail.id} </h1>
+			<div className="jumbo__empty"></div>
+
+			<SearchBar />
+
 			<div className="detail__wrapper">
 				<div className="wrapper__left">
 					<div className="left__top">
