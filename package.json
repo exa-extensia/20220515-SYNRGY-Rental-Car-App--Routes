@@ -1,5 +1,6 @@
 {
 	"name": "rental-car-exa",
+	"homepage": "https://exa-extensia.github.io/220515-SYNRGY-Rental-Car-App--Routes/", 
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -9,6 +10,7 @@
 		"@testing-library/react": "^13.1.1",
 		"@testing-library/user-event": "^13.5.0",
 		"axios": "^0.26.1",
+		"gh-pages": "^4.0.0",
 		"jwt-decode": "^3.1.2",
 		"react": "^18.0.0",
 		"react-dom": "^18.0.0",
@@ -19,6 +21,8 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
