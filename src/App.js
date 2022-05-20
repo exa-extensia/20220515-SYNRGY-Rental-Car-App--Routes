@@ -6,7 +6,7 @@ import Layout from "./common/Layout";
 
 function App() {
 	return (
-		<div>
+		<>
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Homepage />} />
@@ -15,7 +15,7 @@ function App() {
 					<Route path="*" element={<div>ERROR - NO PAGE</div>} />
 				</Route>
 			</Routes>
-		</div>
+		</>
 	);
 }
 

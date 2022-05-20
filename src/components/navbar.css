@@ -4,7 +4,7 @@ nav {
 }
 
 .nav__wrapper {
-	@apply container mx-auto flex flex-row items-center justify-between;
+	@apply container absolute mx-auto flex flex-row items-center justify-between;
 }
 
 .nav__left {
@@ -12,7 +12,7 @@ nav {
 }
 
 .nav__right {
-	@apply list-none text-right sm:flex sm:items-center sm:gap-6;
+	@apply hidden list-none text-right sm:flex sm:items-center sm:gap-6;
 }
 
 .list__items {
@@ -21,4 +21,14 @@ nav {
 
 .reg__btn {
 	@apply ml-auto mr-0 block  rounded-sm bg-gradient-to-br from-[#5CB85F] via-[#95D097]  to-[#39693d] bg-size-200 px-3 py-2 text-xs font-bold text-white transition-all duration-500 hover:bg-right-bottom xl:text-sm;
+}
+
+/* Mobile  */
+
+.dropdown__icon {
+	@apply sm:hidden;
+}
+
+.nav__right--mobile {
+	@apply absolute right-4 top-full z-10 flex w-2/5 list-none flex-col gap-4 rounded-b-xl rounded-tl-xl bg-white p-4 text-right shadow-md sm:hidden;
 }
