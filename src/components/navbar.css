@@ -4,7 +4,7 @@ nav {
 }
 
 .nav__wrapper {
-	@apply container absolute mx-auto flex flex-row items-center justify-between;
+	@apply container relative mx-auto flex flex-row items-center justify-between;
 }
 
 .nav__left {
