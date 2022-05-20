@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/220515-SYNRGY-Rental-Car-App--Routes/static/css/main.027b6b88.css",
-    "main.js": "/220515-SYNRGY-Rental-Car-App--Routes/static/js/main.c88ce5c4.js",
+    "main.css": "/220515-SYNRGY-Rental-Car-App--Routes/static/css/main.8afcd471.css",
+    "main.js": "/220515-SYNRGY-Rental-Car-App--Routes/static/js/main.c28acf6f.js",
     "static/media/img_car.png": "/220515-SYNRGY-Rental-Car-App--Routes/static/media/img_car.ffe77cc73822a065a73a.png",
     "index.html": "/220515-SYNRGY-Rental-Car-App--Routes/index.html",
-    "main.027b6b88.css.map": "/220515-SYNRGY-Rental-Car-App--Routes/static/css/main.027b6b88.css.map",
-    "main.c88ce5c4.js.map": "/220515-SYNRGY-Rental-Car-App--Routes/static/js/main.c88ce5c4.js.map"
+    "main.8afcd471.css.map": "/220515-SYNRGY-Rental-Car-App--Routes/static/css/main.8afcd471.css.map",
+    "main.c28acf6f.js.map": "/220515-SYNRGY-Rental-Car-App--Routes/static/js/main.c28acf6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.027b6b88.css",
-    "static/js/main.c88ce5c4.js"
+    "static/css/main.8afcd471.css",
+    "static/js/main.c28acf6f.js"
   ]
 }
